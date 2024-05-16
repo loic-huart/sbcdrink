@@ -7,6 +7,8 @@ services:
     restart: always
     ports:
       - 3000:3000
+    env_file:
+      - .env.app
 
   sbcdrink-api:
     image: loic08/sbcdrink-api:main
@@ -15,7 +17,7 @@ services:
     ports:
       - 8000:8000
     env_file:
-      - .env
+      - .env.api
     networks:
       - sbcdrink-network
     depends_on:

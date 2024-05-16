@@ -2,5 +2,6 @@
 .DS_Store
 .idea
 .vscode
-.env
+.env.app
+.env.api
 mongo

@@ -36,6 +36,10 @@ services:
       - sbcdrink-network
     depends_on:
       - sbcdrink-mongo
+    privileged: true
+    devices:
+      - "/dev/gpiomem:/dev/gpiomem"
+      - "/dev/mem:/dev/mem"
 
   sbcdrink-mongo:
     container_name: sbcdrink-mongo

@@ -5,6 +5,7 @@
     },
     "name": "Sex on the beach",
     "description": "Découvrez la recette du délicieux cocktail sex on the beach. À base de vodka, liqueur de pêches, jus d’ananas et jus de cranberry, ce cocktail est frais et idéal pour vos soirées d’été.",
+    "default_glass_volume": 33,
     "picture": {
       "$oid": "663be494e01fcfdce81b1ab4"
     },
@@ -54,10 +55,65 @@
   },
   {
     "_id": {
+      "$oid": "660f1efff880d9c7b199ef82"
+    },
+    "name": "Amaretto sunrise",
+    "description": "Ce cocktail est une variation du cocktail Tequila Sunrise où l’Amaretto remplace la tequila. Vous apprécierez particulièrement cette boisson à la couleur évocatrice d’un lever de soleil.",
+    "default_glass_volume": 33,
+    "picture": {
+      "$oid": "663be588e01fcfdce81b1aba"
+    },
+    "alcohol_level": 12.5,
+    "alcohol_min_level": 8,
+    "alcohol_max_level": 20,
+    "is_available": false,
+    "steps": [
+      {
+        "ingredient": {
+          "$oid": "660f1a0df880d9c7b199ef45"
+        },
+        "proportion": 100,
+        "order_index": 3,
+        "_id": {
+          "$oid": "660f1efff880d9c7b199ef83"
+        }
+      },
+      {
+        "ingredient": {
+          "$oid": "660f1a24f880d9c7b199ef48"
+        },
+        "proportion": 85.71,
+        "order_index": 1,
+        "_id": {
+          "$oid": "660f1efff880d9c7b199ef84"
+        }
+      },
+      {
+        "ingredient": {
+          "$oid": "660f1a5ff880d9c7b199ef54"
+        },
+        "proportion": 14.29,
+        "order_index": 2,
+        "_id": {
+          "$oid": "660f1efff880d9c7b199ef85"
+        }
+      }
+    ],
+    "created_at": {
+      "$date": "2024-04-04T21:43:27.242Z"
+    },
+    "updated_at": {
+      "$date": "2024-04-04T21:43:27.242Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
       "$oid": "660f1d7bf880d9c7b199ef6b"
     },
     "name": "Piña Colada",
     "description": "Un mélange tropical de crème de noix de coco, de rhum blanc et d'ananas.",
+    "default_glass_volume": 33,
     "picture": {
       "$oid": "663be572e01fcfdce81b1ab8"
     },
@@ -117,10 +173,55 @@
   },
   {
     "_id": {
+      "$oid": "660f210cf880d9c7b199ef99"
+    },
+    "name": "Grandfather",
+    "description": "Digestif aux douces saveurs d''amandes.",
+    "default_glass_volume": 33,
+    "picture": {
+      "$oid": "663be5c4e01fcfdce81b1abe"
+    },
+    "alcohol_level": 100,
+    "alcohol_min_level": 100,
+    "alcohol_max_level": 100,
+    "is_available": false,
+    "steps": [
+      {
+        "ingredient": {
+          "$oid": "660f1a0df880d9c7b199ef45"
+        },
+        "proportion": 30,
+        "order_index": 2,
+        "_id": {
+          "$oid": "660f210cf880d9c7b199ef9a"
+        }
+      },
+      {
+        "ingredient": {
+          "$oid": "660f1a69f880d9c7b199ef57"
+        },
+        "proportion": 70,
+        "order_index": 1,
+        "_id": {
+          "$oid": "660f210cf880d9c7b199ef9b"
+        }
+      }
+    ],
+    "created_at": {
+      "$date": "2024-04-04T21:52:12.198Z"
+    },
+    "updated_at": {
+      "$date": "2024-04-04T21:52:12.198Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
       "$oid": "660f1e80f880d9c7b199ef78"
     },
     "name": "Gin tonic",
     "description": "Gin... et Tonic",
+    "default_glass_volume": 33,
     "picture": {
       "$oid": "663be53ee01fcfdce81b1ab6"
     },
@@ -160,56 +261,47 @@
   },
   {
     "_id": {
-      "$oid": "660f1efff880d9c7b199ef82"
+      "$oid": "6671bf908b8b5e85cb068d31"
     },
-    "name": "Amaretto sunrise",
-    "description": "Ce cocktail est une variation du cocktail Tequila Sunrise où l’Amaretto remplace la tequila. Vous apprécierez particulièrement cette boisson à la couleur évocatrice d’un lever de soleil.",
+    "name": "Diabolo grenadine",
+    "description": "Un diabolo est un cocktail sans alcool, composé de sirop grenadine et de limonade.",
+    "default_glass_volume": 33,
     "picture": {
-      "$oid": "663be588e01fcfdce81b1aba"
+      "$oid": "6671c3b459bf9ec40a70cab9"
     },
-    "alcohol_level": 12.5,
-    "alcohol_min_level": 8,
-    "alcohol_max_level": 20,
-    "is_available": false,
+    "alcohol_level": 0,
+    "alcohol_min_level": 0,
+    "alcohol_max_level": 100,
+    "is_available": true,
     "steps": [
       {
         "ingredient": {
-          "$oid": "660f1a0df880d9c7b199ef45"
+          "$oid": "6671bf008b8b5e85cb068d15"
         },
-        "proportion": 100,
-        "order_index": 3,
-        "_id": {
-          "$oid": "660f1efff880d9c7b199ef83"
-        }
-      },
-      {
-        "ingredient": {
-          "$oid": "660f1a24f880d9c7b199ef48"
-        },
-        "proportion": 85.71,
+        "proportion": 9.09,
         "order_index": 1,
         "_id": {
-          "$oid": "660f1efff880d9c7b199ef84"
+          "$oid": "6671c3b459bf9ec40a70cac0"
         }
       },
       {
         "ingredient": {
-          "$oid": "660f1a5ff880d9c7b199ef54"
+          "$oid": "660f1a4bf880d9c7b199ef4e"
         },
-        "proportion": 14.29,
+        "proportion": 90.91,
         "order_index": 2,
         "_id": {
-          "$oid": "660f1efff880d9c7b199ef85"
+          "$oid": "6671c3b459bf9ec40a70cac1"
         }
       }
     ],
     "created_at": {
-      "$date": "2024-04-04T21:43:27.242Z"
+      "$date": "2024-06-18T17:10:40.832Z"
     },
     "updated_at": {
-      "$date": "2024-04-04T21:43:27.242Z"
+      "$date": "2024-06-18T17:28:20.934Z"
     },
-    "__v": 0
+    "__v": 1
   },
   {
     "_id": {
@@ -217,6 +309,7 @@
     },
     "name": "Tequila sunrise",
     "description": "Le Tequila Sunrise sera encore meilleur dégusté au bord d'une piscine.",
+    "default_glass_volume": 33,
     "picture": {
       "$oid": "663be5a9e01fcfdce81b1abc"
     },
@@ -266,44 +359,133 @@
   },
   {
     "_id": {
-      "$oid": "660f210cf880d9c7b199ef99"
+      "$oid": "6671c04e8b8b5e85cb068d52"
     },
-    "name": "Grandfather",
-    "description": "Digestif aux douces saveurs d''amandes.",
+    "name": "Kir cassis",
+    "description": "Le kir est un apéritif / cocktail traditionnel de la cuisine bourguignonne, à base de crème de cassis et de vin blanc bourgogne aligoté.",
+    "default_glass_volume": 13,
     "picture": {
-      "$oid": "663be5c4e01fcfdce81b1abe"
+      "$oid": "6671c3a959bf9ec40a70ca91"
     },
-    "alcohol_level": 100,
-    "alcohol_min_level": 100,
+    "alcohol_level": 96.15,
+    "alcohol_min_level": 0,
     "alcohol_max_level": 100,
-    "is_available": false,
+    "is_available": true,
     "steps": [
       {
         "ingredient": {
-          "$oid": "660f1a0df880d9c7b199ef45"
+          "$oid": "6671be958b8b5e85cb068d12"
         },
-        "proportion": 30,
-        "order_index": 2,
+        "proportion": 24,
+        "order_index": 1,
         "_id": {
-          "$oid": "660f210cf880d9c7b199ef9a"
+          "$oid": "6671c3a959bf9ec40a70ca98"
         }
       },
       {
         "ingredient": {
-          "$oid": "660f1a69f880d9c7b199ef57"
+          "$oid": "6671be8d8b8b5e85cb068d0f"
         },
-        "proportion": 70,
-        "order_index": 1,
+        "proportion": 76,
+        "order_index": 2,
         "_id": {
-          "$oid": "660f210cf880d9c7b199ef9b"
+          "$oid": "6671c3a959bf9ec40a70ca99"
         }
       }
     ],
     "created_at": {
-      "$date": "2024-04-04T21:52:12.198Z"
+      "$date": "2024-06-18T17:13:50.030Z"
     },
     "updated_at": {
-      "$date": "2024-04-04T21:52:12.198Z"
+      "$date": "2024-06-18T17:28:09.717Z"
+    },
+    "__v": 1
+  },
+  {
+    "_id": {
+      "$oid": "6671c39459bf9ec40a70ca6e"
+    },
+    "name": "Kir pêche",
+    "description": "Le kir est un apéritif / cocktail traditionnel de la cuisine bourguignonne, à base de crème de pêche et de vin blanc bourgogne aligoté.",
+    "default_glass_volume": 13,
+    "picture": {
+      "$oid": "6671c39359bf9ec40a70ca6a"
+    },
+    "alcohol_level": 100,
+    "alcohol_min_level": 0,
+    "alcohol_max_level": 100,
+    "is_available": true,
+    "steps": [
+      {
+        "ingredient": {
+          "$oid": "6671c28159bf9ec40a70ca4e"
+        },
+        "proportion": 23.08,
+        "order_index": 1,
+        "_id": {
+          "$oid": "6671c39459bf9ec40a70ca6f"
+        }
+      },
+      {
+        "ingredient": {
+          "$oid": "6671be8d8b8b5e85cb068d0f"
+        },
+        "proportion": 76.92,
+        "order_index": 2,
+        "_id": {
+          "$oid": "6671c39459bf9ec40a70ca70"
+        }
+      }
+    ],
+    "created_at": {
+      "$date": "2024-06-18T17:27:48.341Z"
+    },
+    "updated_at": {
+      "$date": "2024-06-18T17:27:48.341Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "6671c41259bf9ec40a70cae3"
+    },
+    "name": "Diabolo menthe",
+    "description": "Un diabolo est un cocktail sans alcool, composé de sirop menthe et de limonade.",
+    "default_glass_volume": 33,
+    "picture": {
+      "$oid": "6671c41159bf9ec40a70cadf"
+    },
+    "alcohol_level": 0,
+    "alcohol_min_level": 0,
+    "alcohol_max_level": 100,
+    "is_available": true,
+    "steps": [
+      {
+        "ingredient": {
+          "$oid": "6671c26959bf9ec40a70ca4b"
+        },
+        "proportion": 23.08,
+        "order_index": 1,
+        "_id": {
+          "$oid": "6671c41259bf9ec40a70cae4"
+        }
+      },
+      {
+        "ingredient": {
+          "$oid": "660f1a4bf880d9c7b199ef4e"
+        },
+        "proportion": 76.92,
+        "order_index": 2,
+        "_id": {
+          "$oid": "6671c41259bf9ec40a70cae5"
+        }
+      }
+    ],
+    "created_at": {
+      "$date": "2024-06-18T17:29:54.514Z"
+    },
+    "updated_at": {
+      "$date": "2024-06-18T17:29:54.514Z"
     },
     "__v": 0
   }

@@ -1,59 +1,12 @@
 [
   {
     "_id": {
-      "$oid": "660f1993f880d9c7b199ef30"
-    },
-    "viscosity": 1,
-    "name": "Vodka",
-    "is_alcohol": true,
-    "alcohol_degree": 37.5,
-    "created_at": {
-      "$date": "2024-04-04T21:52:12.198Z"
-    },
-    "updated_at": {
-      "$date": "2024-04-04T21:52:12.198Z"
-    },
-    "__v": 0
-  },
-  {
-    "_id": {
-      "$oid": "660f19c6f880d9c7b199ef33"
-    },
-    "viscosity": 1,
-    "name": "Jus d''ananas",
-    "is_alcohol": false,
-    "alcohol_degree": 0,
-    "created_at": {
-      "$date": "2024-04-05T21:52:12.198Z"
-    },
-    "updated_at": {
-      "$date": "2024-04-05T21:52:12.198Z"
-    },
-    "__v": 0
-  },
-  {
-    "_id": {
-      "$oid": "660f19d1f880d9c7b199ef36"
-    },
-    "viscosity": 1,
-    "name": "Jus de cranberry",
-    "is_alcohol": false,
-    "alcohol_degree": 0,
-    "created_at": {
-      "$date": "2024-04-06T21:52:12.198Z"
-    },
-    "updated_at": {
-      "$date": "2024-04-06T21:52:12.198Z"
-    },
-    "__v": 0
-  },
-  {
-    "_id": {
       "$oid": "660f19dcf880d9c7b199ef39"
     },
     "viscosity": 1,
     "name": "Liqueur de pêche",
     "is_alcohol": true,
+    "viscosity": 1,
     "alcohol_degree": 15,
     "created_at": {
       "$date": "2024-04-07T21:52:12.198Z"
@@ -65,27 +18,12 @@
   },
   {
     "_id": {
-      "$oid": "660f19eaf880d9c7b199ef3c"
-    },
-    "viscosity": 1,
-    "name": "Rhum blanc",
-    "is_alcohol": true,
-    "alcohol_degree": 45,
-    "created_at": {
-      "$date": "2024-04-08T21:52:12.198Z"
-    },
-    "updated_at": {
-      "$date": "2024-04-08T21:52:12.198Z"
-    },
-    "__v": 0
-  },
-  {
-    "_id": {
       "$oid": "660f19f9f880d9c7b199ef3f"
     },
     "viscosity": 1,
     "name": "Rhum ambré",
     "is_alcohol": true,
+    "viscosity": 1,
     "alcohol_degree": 40,
     "created_at": {
       "$date": "2024-04-09T21:52:12.198Z"
@@ -97,17 +35,33 @@
   },
   {
     "_id": {
-      "$oid": "660f1a03f880d9c7b199ef42"
+      "$oid": "660f19eaf880d9c7b199ef3c"
     },
+    "name": "Rhum blanc",
+    "is_alcohol": true,
     "viscosity": 1,
-    "name": "Lait de coco",
-    "is_alcohol": false,
-    "alcohol_degree": 0,
+    "alcohol_degree": 45,
     "created_at": {
-      "$date": "2024-04-10T21:52:12.198Z"
+      "$date": "2024-04-08T21:52:12.198Z"
     },
     "updated_at": {
-      "$date": "2024-04-10T21:52:12.198Z"
+      "$date": "2024-04-08T21:52:12.198Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "660f19d1f880d9c7b199ef36"
+    },
+    "name": "Jus de cranberry",
+    "is_alcohol": false,
+    "viscosity": 1,
+    "alcohol_degree": 0,
+    "created_at": {
+      "$date": "2024-04-06T21:52:12.198Z"
+    },
+    "updated_at": {
+      "$date": "2024-04-06T21:52:12.198Z"
     },
     "__v": 0
   },
@@ -118,6 +72,7 @@
     "viscosity": 1,
     "name": "Amaretto",
     "is_alcohol": true,
+    "viscosity": 1,
     "alcohol_degree": 28,
     "created_at": {
       "$date": "2024-04-11T21:52:12.198Z"
@@ -129,11 +84,28 @@
   },
   {
     "_id": {
+      "$oid": "660f1a03f880d9c7b199ef42"
+    },
+    "name": "Lait de coco",
+    "is_alcohol": false,
+    "viscosity": 1,
+    "alcohol_degree": 0,
+    "created_at": {
+      "$date": "2024-04-10T21:52:12.198Z"
+    },
+    "updated_at": {
+      "$date": "2024-04-10T21:52:12.198Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
       "$oid": "660f1a24f880d9c7b199ef48"
     },
     "viscosity": 1,
     "name": "Jus d''orange",
     "is_alcohol": false,
+    "viscosity": 1,
     "alcohol_degree": 0,
     "created_at": {
       "$date": "2024-04-01T21:52:12.198Z"
@@ -145,11 +117,44 @@
   },
   {
     "_id": {
+      "$oid": "660f19c6f880d9c7b199ef33"
+    },
+    "name": "Jus d''ananas",
+    "is_alcohol": false,
+    "viscosity": 1,
+    "alcohol_degree": 0,
+    "created_at": {
+      "$date": "2024-04-05T21:52:12.198Z"
+    },
+    "updated_at": {
+      "$date": "2024-04-05T21:52:12.198Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "660f1a5ff880d9c7b199ef54"
+    },
+    "name": "Sirop grenadine",
+    "is_alcohol": false,
+    "viscosity": 1,
+    "alcohol_degree": 0,
+    "created_at": {
+      "$date": "2024-04-05T21:52:12.198Z"
+    },
+    "updated_at": {
+      "$date": "2024-04-05T21:52:12.198Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
       "$oid": "660f1a3ff880d9c7b199ef4b"
     },
     "viscosity": 1,
     "name": "Gin",
     "is_alcohol": true,
+    "viscosity": 1,
     "alcohol_degree": 37.5,
     "created_at": {
       "$date": "2024-04-02T21:52:12.198Z"
@@ -166,6 +171,7 @@
     "viscosity": 1,
     "name": "Limonade",
     "is_alcohol": false,
+    "viscosity": 1,
     "alcohol_degree": 0,
     "created_at": {
       "$date": "2024-03-04T21:52:12.198Z"
@@ -177,11 +183,76 @@
   },
   {
     "_id": {
+      "$oid": "660f1a69f880d9c7b199ef57"
+    },
+    "name": "Whisky",
+    "is_alcohol": true,
+    "viscosity": 1,
+    "alcohol_degree": 40,
+    "created_at": {
+      "$date": "2024-04-04T21:52:12.198Z"
+    },
+    "updated_at": {
+      "$date": "2024-04-04T21:52:12.198Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "6671be8d8b8b5e85cb068d0f"
+    },
+    "name": "Vin blanc",
+    "is_alcohol": true,
+    "viscosity": 1,
+    "alcohol_degree": 12,
+    "created_at": {
+      "$date": "2024-06-18T17:06:21.966Z"
+    },
+    "updated_at": {
+      "$date": "2024-06-18T17:06:21.966Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "6671be958b8b5e85cb068d12"
+    },
+    "name": "Crème de cassis",
+    "is_alcohol": true,
+    "viscosity": 1,
+    "alcohol_degree": 15,
+    "created_at": {
+      "$date": "2024-06-18T17:06:29.875Z"
+    },
+    "updated_at": {
+      "$date": "2024-06-18T17:06:29.875Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "6671bf008b8b5e85cb068d15"
+    },
+    "name": "Sirop grenadine",
+    "is_alcohol": false,
+    "viscosity": 1,
+    "alcohol_degree": 0,
+    "created_at": {
+      "$date": "2024-06-18T17:08:16.473Z"
+    },
+    "updated_at": {
+      "$date": "2024-06-18T17:08:16.473Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
       "$oid": "660f1a56f880d9c7b199ef51"
     },
     "viscosity": 1,
     "name": "Tequila",
     "is_alcohol": true,
+    "viscosity": 1,
     "alcohol_degree": 38,
     "created_at": {
       "$date": "2024-04-04T21:52:12.198Z"
@@ -193,33 +264,49 @@
   },
   {
     "_id": {
-      "$oid": "660f1a5ff880d9c7b199ef54"
+      "$oid": "660f1993f880d9c7b199ef30"
     },
+    "name": "Vodka",
+    "is_alcohol": true,
     "viscosity": 1,
-    "name": "Grenadine",
-    "is_alcohol": false,
-    "alcohol_degree": 0,
+    "alcohol_degree": 37.5,
     "created_at": {
-      "$date": "2024-04-05T21:52:12.198Z"
+      "$date": "2024-04-04T21:52:12.198Z"
     },
     "updated_at": {
-      "$date": "2024-04-05T21:52:12.198Z"
+      "$date": "2024-04-04T21:52:12.198Z"
     },
     "__v": 0
   },
   {
     "_id": {
-      "$oid": "660f1a69f880d9c7b199ef57"
+      "$oid": "6671c26959bf9ec40a70ca4b"
     },
+    "name": "Sirop menthe verte",
+    "is_alcohol": false,
     "viscosity": 1,
-    "name": "Whisky",
-    "is_alcohol": true,
-    "alcohol_degree": 40,
+    "alcohol_degree": 0,
     "created_at": {
-      "$date": "2024-04-04T21:52:12.198Z"
+      "$date": "2024-06-18T17:22:49.507Z"
     },
     "updated_at": {
-      "$date": "2024-04-04T21:52:12.198Z"
+      "$date": "2024-06-18T17:22:49.507Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "6671c28159bf9ec40a70ca4e"
+    },
+    "name": "Crème de pêche",
+    "is_alcohol": true,
+    "viscosity": 1,
+    "alcohol_degree": 15,
+    "created_at": {
+      "$date": "2024-06-18T17:23:13.814Z"
+    },
+    "updated_at": {
+      "$date": "2024-06-18T17:23:13.814Z"
     },
     "__v": 0
   }

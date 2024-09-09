@@ -1,0 +1,32 @@
+# config.yml
+belt_engine:
+  pin_out_1: 10
+  pin_out_2: 25
+  pin_out_3: 9
+  pin_out_4: 11
+  step_sleep: 0.0025
+bottle_engine:
+  pin_out_1: 17
+  pin_out_2: 18
+  pin_out_3: 27
+  pin_out_4: 22
+  step_sleep: 0.001
+belt_limit_sensor:
+  pin_signal: 16
+bottle_slot_position:
+  slot_1: 130 # in step
+  slot_2: 130
+  slot_3: 650
+  slot_4: 130
+  slot_5: 1180
+  slot_6: 130
+  slot_7: 1700
+  slot_8: 130
+  slot_9: 2230
+  slot_10: 1900
+  slot_11: 2935
+  slot_12: 2935
+time_for_one_quantity: 2 # time in seconds for 1 cl
+# time_for_one_quantity: 0.18 # time in seconds for 1 cl
+time_for_fill_dispensor: 0.65 # time in seconds for fill dispensor
+present_position: 1700

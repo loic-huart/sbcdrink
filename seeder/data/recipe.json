@@ -5,16 +5,17 @@
     },
     "name": "Sex on the beach",
     "description": "Découvrez la recette du délicieux cocktail sex on the beach. À base de vodka, liqueur de pêches, jus d’ananas et jus de cranberry, ce cocktail est frais et idéal pour vos soirées d’été.",
-    "picture": {
+    "picture_id": {
       "$oid": "663be494e01fcfdce81b1ab4"
     },
     "alcohol_level": 27.27,
     "alcohol_min_level": 15,
     "alcohol_max_level": 40,
     "is_available": false,
+    "default_glass_volume": 33,
     "steps": [
       {
-        "ingredient": {
+        "ingredient_id": {
           "$oid": "660f19dcf880d9c7b199ef39"
         },
         "proportion": 100,
@@ -24,7 +25,7 @@
         }
       },
       {
-        "ingredient": {
+        "ingredient_id": {
           "$oid": "660f19c6f880d9c7b199ef33"
         },
         "proportion": 37.5,
@@ -34,7 +35,7 @@
         }
       },
       {
-        "ingredient": {
+        "ingredient_id": {
           "$oid": "660f19d1f880d9c7b199ef36"
         },
         "proportion": 62.5,
@@ -58,16 +59,17 @@
     },
     "name": "Piña Colada",
     "description": "Un mélange tropical de crème de noix de coco, de rhum blanc et d'ananas.",
-    "picture": {
+    "picture_id": {
       "$oid": "663be572e01fcfdce81b1ab8"
     },
     "alcohol_level": 27.27,
     "alcohol_min_level": 10,
     "alcohol_max_level": 50,
     "is_available": false,
+    "default_glass_volume": 33,
     "steps": [
       {
-        "ingredient": {
+        "ingredient_id": {
           "$oid": "660f19eaf880d9c7b199ef3c"
         },
         "proportion": 66.67,
@@ -77,7 +79,7 @@
         }
       },
       {
-        "ingredient": {
+        "ingredient_id": {
           "$oid": "660f19f9f880d9c7b199ef3f"
         },
         "proportion": 33.33,
@@ -87,7 +89,7 @@
         }
       },
       {
-        "ingredient": {
+        "ingredient_id": {
           "$oid": "660f19c6f880d9c7b199ef33"
         },
         "proportion": 75,
@@ -97,7 +99,7 @@
         }
       },
       {
-        "ingredient": {
+        "ingredient_id": {
           "$oid": "660f1a03f880d9c7b199ef42"
         },
         "proportion": 25,
@@ -121,16 +123,17 @@
     },
     "name": "Gin tonic",
     "description": "Gin... et Tonic",
-    "picture": {
+    "picture_id": {
       "$oid": "663be53ee01fcfdce81b1ab6"
     },
     "alcohol_level": 33.33,
     "alcohol_min_level": 20,
     "alcohol_max_level": 50,
-    "is_available": false,
+    "is_available": true,
+    "default_glass_volume": 33,
     "steps": [
       {
-        "ingredient": {
+        "ingredient_id": {
           "$oid": "660f1a3ff880d9c7b199ef4b"
         },
         "proportion": 100,
@@ -140,7 +143,7 @@
         }
       },
       {
-        "ingredient": {
+        "ingredient_id": {
           "$oid": "660f1a4bf880d9c7b199ef4e"
         },
         "proportion": 100,
@@ -164,16 +167,17 @@
     },
     "name": "Amaretto sunrise",
     "description": "Ce cocktail est une variation du cocktail Tequila Sunrise où l’Amaretto remplace la tequila. Vous apprécierez particulièrement cette boisson à la couleur évocatrice d’un lever de soleil.",
-    "picture": {
+    "picture_id": {
       "$oid": "663be588e01fcfdce81b1aba"
     },
     "alcohol_level": 12.5,
     "alcohol_min_level": 8,
     "alcohol_max_level": 20,
     "is_available": false,
+    "default_glass_volume": 33,
     "steps": [
       {
-        "ingredient": {
+        "ingredient_id": {
           "$oid": "660f1a0df880d9c7b199ef45"
         },
         "proportion": 100,
@@ -183,7 +187,7 @@
         }
       },
       {
-        "ingredient": {
+        "ingredient_id": {
           "$oid": "660f1a24f880d9c7b199ef48"
         },
         "proportion": 85.71,
@@ -193,7 +197,7 @@
         }
       },
       {
-        "ingredient": {
+        "ingredient_id": {
           "$oid": "660f1a5ff880d9c7b199ef54"
         },
         "proportion": 14.29,
@@ -217,16 +221,17 @@
     },
     "name": "Tequila sunrise",
     "description": "Le Tequila Sunrise sera encore meilleur dégusté au bord d'une piscine.",
-    "picture": {
+    "picture_id": {
       "$oid": "663be5a9e01fcfdce81b1abc"
     },
     "alcohol_level": 30,
     "alcohol_min_level": 20,
     "alcohol_max_level": 40,
     "is_available": false,
+    "default_glass_volume": 33,
     "steps": [
       {
-        "ingredient": {
+        "ingredient_id": {
           "$oid": "660f1a4bf880d9c7b199ef4e"
         },
         "proportion": 100,
@@ -236,7 +241,7 @@
         }
       },
       {
-        "ingredient": {
+        "ingredient_id": {
           "$oid": "660f1a24f880d9c7b199ef48"
         },
         "proportion": 86.71,
@@ -246,7 +251,7 @@
         }
       },
       {
-        "ingredient": {
+        "ingredient_id": {
           "$oid": "660f1a5ff880d9c7b199ef54"
         },
         "proportion": 13.29,
@@ -270,16 +275,17 @@
     },
     "name": "Grandfather",
     "description": "Digestif aux douces saveurs d''amandes.",
-    "picture": {
+    "picture_id": {
       "$oid": "663be5c4e01fcfdce81b1abe"
     },
     "alcohol_level": 100,
     "alcohol_min_level": 100,
     "alcohol_max_level": 100,
     "is_available": false,
+    "default_glass_volume": 33,
     "steps": [
       {
-        "ingredient": {
+        "ingredient_id": {
           "$oid": "660f1a0df880d9c7b199ef45"
         },
         "proportion": 30,
@@ -289,7 +295,7 @@
         }
       },
       {
-        "ingredient": {
+        "ingredient_id": {
           "$oid": "660f1a69f880d9c7b199ef57"
         },
         "proportion": 70,

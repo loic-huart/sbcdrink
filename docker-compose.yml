@@ -20,7 +20,7 @@ services:
       - .env.api
     volumes:
       - ./seeder:/api/seeder
-      # - ./protos:/api/build/src/services/machine/protos
+      - ./protos:/api/build/src/services/machine/protos
     networks:
       - sbcdrink-network
     depends_on:

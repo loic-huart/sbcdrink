@@ -1,0 +1,22 @@
+syntax = "proto3";
+
+package machine;
+
+// Service qui permet de déclencher une action
+service Machine {
+  // Définition d'une méthode pour déclencher une action
+  rpc MakeCocktail (MakeCocktailRequest) returns (MakeCocktailResponse) {}
+}
+
+// La demande d'action
+message MakeCocktailRequest {
+  string steps = 1;
+  int32 dispenser_emptying_time = 2;
+  int32 dispenser_filling_time = 3;
+}
+
+// La réponse après l'action
+message MakeCocktailResponse {
+  bool success = 1;
+  string message = 2;
+}

@@ -11,7 +11,7 @@ services:
       - .env.app
 
   sbcdrink-api:
-    image: loic08/sbcdrink-api:prisma
+    image: loic08/sbcdrink-api:main
     container_name: sbcdrink-api
     restart: always
     ports:
@@ -27,7 +27,7 @@ services:
       - sbcdrink-mongo
 
   sbcdrink-script:
-    image: loic08/sbcdrink-script:change-step-format
+    image: loic08/sbcdrink-script:main
     container_name: sbcdrink-script
     restart: always
     ports:

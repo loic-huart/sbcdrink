@@ -1,262 +1,106 @@
 [
   {
-    "ingredient_id": {
-      "$oid": "660f19dcf880d9c7b199ef39"
+    "_id": {
+      "$oid": "6733cc061a3e8862e87a6583"
     },
-    "proportion": 100,
+    "ingredient_id": {
+      "$oid": "6733b9e2ab69e70e7100d21d"
+    },
     "order_index": 1,
-    "_id": {
-      "$oid": "660f1cd8f880d9c7b199ef5f"
-    },
-    "recipe_id": {
-      "$oid": "660f1cd8f880d9c7b199ef5e"
-    }
-  },
-  {
-    "ingredient_id": {
-      "$oid": "660f19c6f880d9c7b199ef33"
-    },
-    "proportion": 37.5,
-    "order_index": 2,
-    "_id": {
-      "$oid": "660f1cd8f880d9c7b199ef60"
-    },
-    "recipe_id": {
-      "$oid": "660f1cd8f880d9c7b199ef5e"
-    }
-  },
-  {
-    "ingredient_id": {
-      "$oid": "660f19d1f880d9c7b199ef36"
-    },
-    "proportion": 62.5,
-    "order_index": 3,
-    "_id": {
-      "$oid": "660f1cd8f880d9c7b199ef61"
-    },
-    "recipe_id": {
-      "$oid": "660f1cd8f880d9c7b199ef5e"
-    }
-  },
-  {
-    "ingredient_id": {
-      "$oid": "660f19eaf880d9c7b199ef3c"
-    },
     "proportion": 66.67,
-    "order_index": 1,
-    "_id": {
-      "$oid": "660f1d7bf880d9c7b199ef6c"
-    },
     "recipe_id": {
-      "$oid": "660f1d7bf880d9c7b199ef6b"
+      "$oid": "6733cc061a3e8862e87a6582"
     }
   },
   {
-    "ingredient_id": {
-      "$oid": "660f19f9f880d9c7b199ef3f"
+    "_id": {
+      "$oid": "6733cc061a3e8862e87a6584"
     },
+    "ingredient_id": {
+      "$oid": "6733ba16ab69e70e7100d21e"
+    },
+    "order_index": 2,
     "proportion": 33.33,
-    "order_index": 2,
-    "_id": {
-      "$oid": "660f1d7bf880d9c7b199ef6d"
-    },
     "recipe_id": {
-      "$oid": "660f1d7bf880d9c7b199ef6b"
+      "$oid": "6733cc061a3e8862e87a6582"
     }
   },
   {
-    "ingredient_id": {
-      "$oid": "660f19c6f880d9c7b199ef33"
+    "_id": {
+      "$oid": "6733cc061a3e8862e87a6585"
     },
-    "proportion": 75,
+    "ingredient_id": {
+      "$oid": "6733ba29ab69e70e7100d21f"
+    },
     "order_index": 3,
-    "_id": {
-      "$oid": "660f1d7bf880d9c7b199ef6e"
-    },
-    "recipe_id": {
-      "$oid": "660f1d7bf880d9c7b199ef6b"
-    }
-  },
-  {
-    "ingredient_id": {
-      "$oid": "660f1a03f880d9c7b199ef42"
-    },
-    "proportion": 25,
-    "order_index": 4,
-    "_id": {
-      "$oid": "660f1d7bf880d9c7b199ef6f"
-    },
-    "recipe_id": {
-      "$oid": "660f1d7bf880d9c7b199ef6b"
-    }
-  },
-  {
-    "ingredient_id": {
-      "$oid": "660f1a3ff880d9c7b199ef4b"
-    },
     "proportion": 100,
-    "order_index": 2,
-    "_id": {
-      "$oid": "660f1e80f880d9c7b199ef79"
-    },
     "recipe_id": {
-      "$oid": "660f1e80f880d9c7b199ef78"
+      "$oid": "6733cc061a3e8862e87a6582"
     }
   },
   {
-    "ingredient_id": {
-      "$oid": "660f1a4bf880d9c7b199ef4e"
+    "_id": {
+      "$oid": "6733cc601a3e8862e87a6587"
     },
-    "proportion": 100,
+    "ingredient_id": {
+      "$oid": "6733ba16ab69e70e7100d21e"
+    },
     "order_index": 1,
-    "_id": {
-      "$oid": "660f1e80f880d9c7b199ef7a"
-    },
+    "proportion": 100,
     "recipe_id": {
-      "$oid": "660f1e80f880d9c7b199ef78"
+      "$oid": "6733cc601a3e8862e87a6586"
     }
   },
   {
-    "ingredient_id": {
-      "$oid": "660f1a0df880d9c7b199ef45"
+    "_id": {
+      "$oid": "6733cc601a3e8862e87a6588"
     },
-    "proportion": 100,
+    "ingredient_id": {
+      "$oid": "6733ba54ab69e70e7100d221"
+    },
+    "order_index": 2,
+    "proportion": 9.09,
+    "recipe_id": {
+      "$oid": "6733cc601a3e8862e87a6586"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6733cc601a3e8862e87a6589"
+    },
+    "ingredient_id": {
+      "$oid": "6733ba29ab69e70e7100d21f"
+    },
     "order_index": 3,
-    "_id": {
-      "$oid": "660f1efff880d9c7b199ef83"
-    },
+    "proportion": 90.91,
     "recipe_id": {
-      "$oid": "660f1efff880d9c7b199ef82"
+      "$oid": "6733cc601a3e8862e87a6586"
     }
   },
   {
-    "ingredient_id": {
-      "$oid": "660f1a24f880d9c7b199ef48"
+    "_id": {
+      "$oid": "6733cc9c1a3e8862e87a658b"
     },
-    "proportion": 85.71,
+    "ingredient_id": {
+      "$oid": "6733ba54ab69e70e7100d221"
+    },
     "order_index": 1,
-    "_id": {
-      "$oid": "660f1efff880d9c7b199ef84"
-    },
+    "proportion": 16.67,
     "recipe_id": {
-      "$oid": "660f1efff880d9c7b199ef82"
+      "$oid": "6733cc9c1a3e8862e87a658a"
     }
   },
   {
-    "ingredient_id": {
-      "$oid": "660f1a5ff880d9c7b199ef54"
+    "_id": {
+      "$oid": "6733cc9c1a3e8862e87a658c"
     },
-    "proportion": 14.29,
+    "ingredient_id": {
+      "$oid": "6733ba3fab69e70e7100d220"
+    },
     "order_index": 2,
-    "_id": {
-      "$oid": "660f1efff880d9c7b199ef85"
-    },
+    "proportion": 83.33,
     "recipe_id": {
-      "$oid": "660f1efff880d9c7b199ef82"
-    }
-  },
-  {
-    "ingredient_id": {
-      "$oid": "660f1a4bf880d9c7b199ef4e"
-    },
-    "proportion": 100,
-    "order_index": 3,
-    "_id": {
-      "$oid": "660f20b4f880d9c7b199ef8f"
-    },
-    "recipe_id": {
-      "$oid": "660f20b4f880d9c7b199ef8e"
-    }
-  },
-  {
-    "ingredient_id": {
-      "$oid": "660f1a24f880d9c7b199ef48"
-    },
-    "proportion": 86.71,
-    "order_index": 1,
-    "_id": {
-      "$oid": "660f20b4f880d9c7b199ef90"
-    },
-    "recipe_id": {
-      "$oid": "660f20b4f880d9c7b199ef8e"
-    }
-  },
-  {
-    "ingredient_id": {
-      "$oid": "660f1a5ff880d9c7b199ef54"
-    },
-    "proportion": 13.29,
-    "order_index": 2,
-    "_id": {
-      "$oid": "660f20b4f880d9c7b199ef91"
-    },
-    "recipe_id": {
-      "$oid": "660f20b4f880d9c7b199ef8e"
-    }
-  },
-  {
-    "ingredient_id": {
-      "$oid": "660f1a0df880d9c7b199ef45"
-    },
-    "proportion": 30,
-    "order_index": 2,
-    "_id": {
-      "$oid": "660f210cf880d9c7b199ef9a"
-    },
-    "recipe_id": {
-      "$oid": "660f210cf880d9c7b199ef99"
-    }
-  },
-  {
-    "ingredient_id": {
-      "$oid": "660f1a69f880d9c7b199ef57"
-    },
-    "proportion": 70,
-    "order_index": 1,
-    "_id": {
-      "$oid": "660f210cf880d9c7b199ef9b"
-    },
-    "recipe_id": {
-      "$oid": "660f210cf880d9c7b199ef99"
-    }
-  },
-  {
-    "ingredient_id": {
-      "$oid": "660f1a69f880d9c7b199ef58"
-    },
-    "proportion": 66,
-    "order_index": 1,
-    "_id": {
-      "$oid": "660f210cf880d9c7b199ef9c"
-    },
-    "recipe_id": {
-      "$oid": "660f210cf880d9c7b198ef99"
-    }
-  },
-  {
-    "ingredient_id": {
-      "$oid": "660f19eaf880d9c7b199ef3c"
-    },
-    "proportion": 33,
-    "order_index": 2,
-    "_id": {
-      "$oid": "660f210cf880d9c7b199ef9d"
-    },
-    "recipe_id": {
-      "$oid": "660f210cf880d9c7b198ef99"
-    }
-  },
-  {
-    "ingredient_id": {
-      "$oid": "660f1a24f880d9c7b199ef48"
-    },
-    "proportion": 66,
-    "order_index": 3,
-    "_id": {
-      "$oid": "660f210cf880d9c7b199ef9e"
-    },
-    "recipe_id": {
-      "$oid": "660f210cf880d9c7b198ef99"
+      "$oid": "6733cc9c1a3e8862e87a658a"
     }
   }
 ]

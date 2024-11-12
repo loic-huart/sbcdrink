@@ -13,4 +13,6 @@ bottle_engine:
   step_sleep: 0.001
 belt_limit_sensor:
   pin_signal: 16
+bottle_limit_sensor:
+  pin_signal: 26
 present_position: 1700

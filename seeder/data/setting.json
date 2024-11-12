@@ -3,7 +3,7 @@
     "_id": {
       "$oid": "66dc7477d03900ec3a84ec1f"
     },
-    "dispenser_emptying_time": 1,
-    "dispenser_filling_time": 1
+    "dispenser_emptying_time": 0.09,
+    "dispenser_filling_time": 0.1
   }
 ]
